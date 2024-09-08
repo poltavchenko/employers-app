@@ -9,15 +9,15 @@ import './app.css';
 function App() {
   return (
     <div className="app">
-        <AppInfo />
+      <AppInfo />
 
-        <div className="search-panel">
-            <SearchPanel/>
-            <AppFilter/>
-        </div>
-        
-        <EmployeesList/>
-        <EmployeesAddForm/>
+      <div className="search-panel">
+        <SearchPanel />
+        <AppFilter />
+      </div>
+
+      <EmployeesList />
+      <EmployeesAddForm />
     </div>
   );
 }
